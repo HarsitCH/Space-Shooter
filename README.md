@@ -89,7 +89,7 @@ python main.py
 <img width="597" height="835" alt="image" src="https://github.com/user-attachments/assets/ec0aa4ef-4ed4-40a9-a5c4-a1ddb6e24fcc" />
 <img width="597" height="832" alt="image" src="https://github.com/user-attachments/assets/36bdd5aa-b5dc-4088-a4fe-cf73d038d26c" />
 
-Watch the Gameplay here :
+Watch the Gameplay here ->
 https://www.linkedin.com/posts/c-h-harsit-bbb6642b6_python-gamedev-pygame-activity-7445113042910162944-0fkx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvqb78BGnojvmmiPPn4fRSNE_zDkk9WftI
 
 ---
