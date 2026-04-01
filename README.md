@@ -82,12 +82,15 @@ python main.py
 
 ---
 
-##  Screenshots
+##  Screenshots & Recording
 
 <img width="600" height="835" alt="image" src="https://github.com/user-attachments/assets/79a85665-0fef-4b79-87b5-07209ab44a0e" />
 <img width="595" height="843" alt="image" src="https://github.com/user-attachments/assets/d5e6cba8-ea12-4842-8cf2-b424a104b8b2" />
 <img width="597" height="835" alt="image" src="https://github.com/user-attachments/assets/ec0aa4ef-4ed4-40a9-a5c4-a1ddb6e24fcc" />
 <img width="597" height="832" alt="image" src="https://github.com/user-attachments/assets/36bdd5aa-b5dc-4088-a4fe-cf73d038d26c" />
+
+Watch the Gameplay here :
+https://www.linkedin.com/posts/c-h-harsit-bbb6642b6_python-gamedev-pygame-activity-7445113042910162944-0fkx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEvqb78BGnojvmmiPPn4fRSNE_zDkk9WftI
 
 ---
 
