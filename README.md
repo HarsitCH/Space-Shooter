@@ -8,31 +8,29 @@ The game was built to explore:
 * Real-time event handling
 * Modular software design
   
-Features:
-Core Gameplay
-* Smooth player movement
-* Shooting mechanics with cooldown system
-* Enemy spawning and movement patterns
-* Collision detection system
-* Score tracking
-Visual Effects
-* Particle explosion effects
-* Dynamic starfield background
-* Clean 2D rendering using Pygame
-Game Systems
-* Multiple game states (Menu, Playing, Pause)
-* Difficulty scaling through enemy behavior
-* High score saving using JSON
-Architecture
-* Modular code structure (multiple files)
-* Separation of concerns (player, enemies, effects, config)
-* Maintainable and scalable design
-Tech Stack
-* **Python 3**
-* **Pygame**
-* **JSON** (for persistent storage)
-Project Structure
+## Features
 
+### Core Gameplay
+- Smooth player movement & shooting
+- Multiple enemy types (Basic, Zigzag, Chaser, Speeder, Tank)
+- Wave-based progression
+- Boss battles every 200 points
+- 3 difficulty levels
+
+### Power-ups
+- Rapid Fire - Faster shooting
+- Spread Shot - Triple bullet spread
+- Shield - Blocks one hit
+- Extra Life - +1 life
+
+### Visual Effects
+- Particle explosions
+- Screen shake on hits
+- Dynamic starfield background
+
+
+
+## Project Structure
 ## Space-Shooter/
 
 * ├── config.py          # Constants and settings
