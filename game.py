@@ -261,31 +261,6 @@ class Game:
                         self.player.shield_timer = 0
                     break
         
-        # Player-enemy bullet collisions (from shooter enemies)
-        if self.hit_cooldown == 0:
-            for enemy in self.enemies:
-                if enemy.type == 'shooter':
-                    for bullet in enemy.bullets[:]:
-                        if bullet.rect.colliderect(self.player.rect):
-                            if not self.player.shield_active:
-                                enemy.bullets.remove(bullet)
-                                self.lives -= 1
-                                self.hit_cooldown = HIT_COOLDOWN_FRAMES
-                                self.create_explosion(self.player.rect.centerx, self.player.rect.centery, RED)
-                                self.sound_manager.play_sound('hit')
-                                self.apply_screen_shake()
-                                if self.lives <= 0:
-                                    self.state = GAME_OVER
-                                    if self.score > self.high_score:
-                                        self.high_score = self.score
-                                        self.save_high_score()
-                            else:
-                                # Shield blocks damage
-                                enemy.bullets.remove(bullet)
-                                self.player.shield_active = False
-                                self.player.shield_timer = 0
-                            break
-
         # Player-boss collisions
         if self.boss and self.hit_cooldown == 0:
             if self.boss.rect.colliderect(self.player.rect):
